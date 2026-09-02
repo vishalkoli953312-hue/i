@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squad Fire - Free Fire Tournament App</title>
+
+    <!-- Open Graph / WhatsApp Social Preview Meta Tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://squadfire.gamer.gq/" />
+    <meta property="og:title" content="Squad Fire - Free Fire Tournament App" />
+    <meta property="og:description" content="Squad Fire ऐप डाउनलोड करें और Free Fire टूर्नामेंट्स में भाग लेकर इनाम जीतें!" />
+    <meta property="og:image" content="https://squadfire.gamer.gq/banner.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://squadfire.gamer.gq/" />
+    <meta name="twitter:title" content="Squad Fire - Free Fire Tournament App" />
+    <meta name="twitter:description" content="Squad Fire ऐप डाउनलोड करें और Free Fire टूर्नामेंट्स में भाग लेकर इनाम जीतें!" />
+    <meta name="twitter:image" content="https://squadfire.gamer.gq/banner.jpg" />
+
+    <style>
+        .share-btn {
+            background-color: #25D366;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Squad Fire में आपका स्वागत है!</h1>
+    <p>फ्री फायर टूर्नामेंट खेलें और जीतें।</p>
+
+    <!-- WhatsApp Share Button -->
+    <button class="share-btn" onclick="shareOnWhatsApp()">WhatsApp पर शेयर करें</button>
+
+    <script>
+        function shareOnWhatsApp() {
+            const shareText = "Squad Fire ऐप डाउनलोड करें और Free Fire टूर्नामेंट खेलें! 🎮🔥\n\nयहाँ क्लिक करें: https://squadfire.gamer.gq/";
+            const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(shareText)}`;
+            window.open(whatsappUrl, '_blank');
+        }
+    </script>
+
+</body>
+</html>
